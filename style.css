@@ -144,3 +144,10 @@ header{
 	background-color: #FFF4D6;
 	border-radius: 5px;
 }
+.live-depend{
+	display: flex;
+}
+.live-depend-img img{
+	width: 450px;
+	height: auto;
+}
