@@ -12,7 +12,8 @@ html,body{
 
 
 header{
-	background-image: url('./images/donation5.jpg');
+	background-image: url('./images/donation5.jpg'),linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.7));
+	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	height: 95vh;
 	background-size: cover;
@@ -20,7 +21,6 @@ header{
 	color: #fff;
 	display: grid;
 	align-items: center;
-	filter: brightness(0.7);
 	margin-bottom: 130px;
 }
 .header h1{
