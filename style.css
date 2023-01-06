@@ -6,6 +6,11 @@
 html,body{
 	font-family: 'Poppins', sans-serif;
 }
+
+
+/* Header Area */
+
+
 header{
 	background-image: url('./images/donation5.jpg');
 	background-repeat: no-repeat;
@@ -42,6 +47,11 @@ header{
 	color: #000;
 	border: 1px solid #ff5959;
 }
+
+
+/* Donate Area */
+
+
 .donate-today{
 	text-align: center;
 	margin-bottom: 130px;
@@ -94,6 +104,9 @@ header{
 	margin-top: 9.5px;
 	margin-bottom: 30px;
 }
+
+/*  Donate Plan Area  */
+
 .donate-plan{
 	text-align: center;
 	margin-bottom: 130px;
@@ -144,10 +157,99 @@ header{
 	background-color: #FFF4D6;
 	border-radius: 5px;
 }
+
+
+/*  Live Depend Area  */
+
+
 .live-depend{
 	display: flex;
+	justify-content: center;
+	gap: 200px;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.live-depend-title{
+	width: 450px;
+}
+.live-depend-title h2{
+	margin-bottom: 20px;
+}
+.live-depend-title p{
+	margin-bottom: 20px;
+	color: #707070;
+}
+.live-depend-title button{
+	margin-top: 30px;
 }
 .live-depend-img img{
 	width: 450px;
-	height: auto;
+	height: 477px;
+}
+
+
+/*  Survive Area  */
+
+
+.survive{
+	display: flex;
+	justify-content: center;
+	gap: 200px;
+	align-items: center;
+}
+.survive-title{
+	width: 450px;
+}
+.survive-title h2{
+	margin-bottom: 20px;
+}
+.survive-title p{
+	margin-bottom: 20px;
+	color: #707070;
+}
+.survive-title button{
+	margin-top: 30px;
+}
+.survive-img img{
+	width: 450px;
+	height: 477px;
+}
+
+
+/*  Update Area  */
+
+
+.update{
+	text-align: center;
+	margin-top: 130px;
+}
+.update h2{
+	margin-bottom: 20px;
+}
+.update p{
+	margin-bottom: 50px;
+	color: #707070;
+}
+.email-box{
+	width: 809px;
+	height: 200px;
+	background-color: #FFF4D6;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.email{
+	display: flex;
+	align-items: center;
+}
+.email input{
+	width: 350px;
+	height: 47px;
+	padding-left: 15px;
+	border-radius: 5px;
+	border: 0;
+}
+.email button{
+	height: 47px;
+	padding-top: 13px;
 }
