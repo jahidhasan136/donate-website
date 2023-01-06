@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background-image: url('./images/donation5.jpg');
+	background-repeat: no-repeat;
+	height: 95vh;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	display: grid;
+	align-items: center;
+	filter: brightness(0.7);
+	margin-bottom: 130px;
+}
+.header h1{
+	font-size: 65px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.header p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.btn-primary{
+	background-color: #FF5959;
+	border: 1px solid transparent;
+	color: #fff;
+	padding: 18px 30px;
+	border-radius: 5px;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.btn-primary:hover{
+	background-color: white;
+	color: #000;
+	border: 1px solid #ff5959;
+}
+.donate-today{
+	text-align: center;
+	margin-bottom: 130px;
+}
+.section-title {
+	font-size: 45px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.donate-today p{
+	font-size: 18px;
+	margin-bottom: 50px;
+	color: #707070;
+}
+.donate-amount{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 60px;
+}
+.amount{
+	width: 135px;
+	height: 120px;
+	background-color: #FAFAFA;
+	display: grid;
+	align-items: center;
+}
+.amount:hover{
+	background-color: #FFEEEE;
+	border: 2px solid #FF5959;
+	color: #FF5959;
+}
+.amount span{
+	font-size: 30px;
+	color: #707070;
+	font-weight: 700;
+}
+.donate-amount .amount:nth-child(2){
+	background-color: #FFEEEE;
+	border: 2px solid #FF5959;
+}
+.amount:nth-child(2) span{
+	color: #FF5959;
+}
+.other-amount span{
+	color: #707070;
+	font-size: 18px;
+}
+.divide{
+	border-bottom: 1px solid #DADADA;
+	margin-top: 9.5px;
+	margin-bottom: 30px;
+}
+.donate-plan{
+	text-align: center;
+	margin-bottom: 130px;
+}
+.donate-plan h2{
+	margin-bottom: 20px;
+}
+.donate-plan p{
+	margin-bottom: 50px;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+.card-title{
+	width: 350px;
+	height: 352px;
+	text-align: justify;
+}
+.card-title img{
+	margin-bottom: 20px;
+	margin-left: -7px;
+}
+.card-title h3{
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+.card-title p{
+	font-size: 16px;
+	color: #707070;
+}
+.food-card{
+	padding: 44px 28px;
+	padding-bottom: 5px;
+	background: rgba(79, 157, 166, 0.1);
+	border-radius: 5px;
+}
+.shelter-card{
+	padding: 44px 28px;
+	padding-bottom: 5px;
+	background: rgba(255, 89, 89, 0.1);
+	border-radius: 5px;
+}
+.education-card{
+	padding: 44px 28px;
+	padding-bottom: 5px;
+	background-color: #FFF4D6;
+	border-radius: 5px;
+}
